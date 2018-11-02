@@ -1,0 +1,16 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+apply plugin: 'groovy'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile('org.codehaus.groovy:groovy:2.+')
+    testCompile('org.spockframework:spock-core:latest.release')
+}
